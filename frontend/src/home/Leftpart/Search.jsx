@@ -5,13 +5,15 @@ function Search() {
     return (
         <>
             <form>
-                <label className="input">
+                <div>
+                    <label className="input">
 
-                    <input type="search" required placeholder="Search" />
-                </label>
-                <butoon>
-                    <FaSearch />
-                </butoon>
+                        <input type="search" required placeholder="Search" />
+                    </label>
+                    <butoon>
+                        <FaSearch />
+                    </butoon>
+                </div>
             </form>
         </>
     )
