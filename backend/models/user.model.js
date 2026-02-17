@@ -10,8 +10,8 @@ const userSchema=mongoose.Schema({
         type:String,required:true
     },
     confirmpassword:{
-        type:String,required:true
+        type:String
     }
-},{timestamps:true})
-const User=mongoose.model('User',userSchema)
+},{timestamps:true});
+const User=mongoose.model('User',userSchema);
 export default User;
